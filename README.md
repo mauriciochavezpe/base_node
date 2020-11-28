@@ -1,18 +1,18 @@
 # Template Clear code by [Tio bob](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
-Structure 
+STRUCTURE 
  - API
     - ROUTER
     - UTILS
  - CONTROLLER
     - VALIDATION
  - APPLICATION
-    - LOGIC OF BUSSINES
+    - LOGIC BUSINESS 
  - DOMAIN
-    - ENTITIES OF BUSSINES
+    - ENTITIES OF BUSINESS
  - CONFIG
     - DB
 
-__________________
-SEQUELIZE
-POSTGRESQL
+___________________
+ - SEQUELIZE
+ - PostgreSQL
