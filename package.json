@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "pg": "^8.5.1",
@@ -20,5 +21,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciochavezpe/base_node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mauriciochavezpe/base_node/issues"
+  },
+  "homepage": "https://github.com/mauriciochavezpe/base_node#readme"
 }

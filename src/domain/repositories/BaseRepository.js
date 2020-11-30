@@ -8,6 +8,7 @@ class BaseRepository {
         return await this._entity.findAll(data);
     }
     async create(trama) {
+        // trama.fecha = new Date().toISOString(); //toLocaleDateString();
         return await this._entity.create(trama);
     }
     async update(trama, id) {
@@ -17,7 +18,7 @@ class BaseRepository {
             return "Error " + error.message;
         }
     }
-    async destroy(xid) {
+    async destroy(id) {
         return await this._entity.destroy({ where: { id } })
     }
     async getById() {

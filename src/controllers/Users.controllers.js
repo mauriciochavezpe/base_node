@@ -12,6 +12,7 @@ const postUser = async function (req, res) {
         let nombre = req.body.nombre;
         let apellidos = req.body.apellidos;
         let email = req.body.email;
+        // let email = req.body.email;
         let body = {
             nombre,
             apellidos,

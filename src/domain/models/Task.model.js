@@ -1,5 +1,4 @@
 const { sequelize, DataTypes } = require('../../config/conection');
-
 const Task = sequelize.define("Task", {
     id: {
         type: DataTypes.INTEGER,
@@ -15,7 +14,6 @@ const Task = sequelize.define("Task", {
         type: DataTypes.STRING,
         allowNull: false
     }
- 
  
 })
 

@@ -25,6 +25,13 @@ const User = sequelize.define("User", {
         type: DataTypes.STRING,
         allowNull: false
     }
+    // fecha: {
+    //     type: DataTypes.DATE,
+    //     defaultValue: sequelize.NOW
+    //     // This way, the current date/time will be used to populate this column (at the moment of insertion)
+    // }
+}, {
+    timestamps: false
 })
 
 User.Task = User.hasMany(Task);
