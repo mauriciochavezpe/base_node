@@ -16,3 +16,4 @@ STRUCTURE
 ___________________
  - SEQUELIZE
  - PostgreSQL
+ [JOI](https://github.com/sideway/joi)
